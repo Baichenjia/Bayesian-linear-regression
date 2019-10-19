@@ -18,7 +18,7 @@ refer to 'Weight Uncertainty in Neural Networks'(Bayes by backprop)
 这里讲该参数设置为True. 先验的参数在所有层之间共享.
 
 ## 测试
-贝叶斯神经网络中每个参数都是一个分部，因此用同样的输入，运行贝叶斯
+贝叶斯神经网络中每个参数都是一个分布，因此用同样的输入，运行贝叶斯
 神经网络进行inference，每次的输出结果都是不同的。计算不同输出结果
 的方差就代表了数据的不确定性。
 
